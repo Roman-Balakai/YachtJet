@@ -1,0 +1,90 @@
+/* Our yachts */
+.our-yachts-headline {
+  color: #fbfbfb;
+}
+.our-yachts-order {
+  display: flex;
+  flex-direction: column;
+}
+.our-yachts-order-list {
+  display: flex;
+  flex-direction: column;
+  border-radius: 24px;
+  background-color: #fff;
+  padding: 16px 16px 32px 16px;
+}
+.our-yachts-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.our-yachts-container::after {
+  stroke-width: 1px;
+  stroke: rgba(4, 3, 6, 0.1);
+}
+.our-yachts-name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #1b414b;
+}
+.our-yachts-name-character {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #040306;
+  opacity: 0.4;
+}
+.yacht-character-order {
+  display: flex;
+  flex-direction: column;
+}
+.yacht-character-order-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.yacht-character-list-name {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #040306;
+  opacity: 0.4;
+}
+.yacht-character-list-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #040306;
+}
+/* Advantages */
+.order-advantages {
+  background-color: #1b414b;
+  border-radius: 24px;
+  padding: 80px 20px;
+}
+.headline-advantages {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  color: #fbfbfb;
+}
+.headline-advantages::after {
+  background-color: rgba(251, 251, 251, 0.1);
+}
+.text-advantages {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  opacity: 0.8;
+}
