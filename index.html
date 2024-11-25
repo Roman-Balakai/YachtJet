@@ -21,7 +21,35 @@
 
     </header>
     <main>
-        <!-- происать на 768 и 1280 -->
+        <section class="container about-us">
+            <div class="container-about-us-main">
+                <div class="container-about-us">
+                    <h2 class="about-us-main-header">YachtJet fleet is here to take you on the ultimate adventure</h2>
+                    <h3 class="about-us-header">From spacious decks to state-of-the-art technology, our yachts are
+                        designed
+                        to provide the perfect
+                        blend of luxury and
+                        functionality.
+                    </h3>
+                    <p class="about-us-text">Take a look at our selection below and choose the yacht that matches your
+                        needs
+                        and preferences.No
+                        matter which yacht
+                        you choose, our experienced crew will ensure that your journey is smooth and enjoyable. Book now
+                        and
+                        get ready for an
+                        unforgettable adventure on the high seas.
+                    </p>
+                </div>
+                <picture class="about-us-picture">
+                    <source srcset="/img/about-us/desk.jpg 1x, /img/about-us/desk@2x.jpg 2x"
+                        media="(min-width:1280px)" />
+                    <source srcset="/img/about-us/tab.jpg 1x, /img/about-us/tab@2x.jpg 2x" media="(min-width:768px)" />
+                    <source srcset="/img/about-us/mob.jpg 1x, /img/about-us/mob@2x.jpg 2x" media="(min-width:320px)" />
+                    <img class="about-us-image" src="/img/about-us/desk.jpg" alt="About us" />
+                </picture>
+            </div>
+        </section>
         <section class="container our-yachts">
             <h2 class="our-yachts-header">Choose your dream yacht and sail away into the sunset</h2>
             <ul class="yachts-order">
@@ -30,10 +58,11 @@
                         srcset="/img/our-yachts/yaht.jpg 1x, /img/our-yachts/yaht@2x.jpg 2x" alt="Arrow yacht" />
                     <div class="yacht-order-box">
                         <div class="yacht-name-box">
-                            <p class="yacht-name-fabric">Arrow</p>
-                            <p class="yacht-name">LUXURY YAHTS</p>
+                            <div class="yacht-name-box-in">
+                                <p class="yacht-name-fabric">Arrow</p>
+                                <p class="yacht-name">LUXURY YAHTS</p>
+                            </div>
                         </div>
-                        <!-- сделать after -->
                         <div class="yacht-tech-main-box">
                             <div class="yacht-tech-box">
                                 <p class="yacht-tech-text">LENGTH</p>
@@ -48,19 +77,20 @@
                                 <p class="yacht-text">2021</p>
                                 <p class="yacht-text">11 in 5 cabins</p>
                                 <p class="yacht-text">€33,500,000</p>
-
                             </div>
                         </div>
                     </div>
                 </li>
                 <li class="yachts-order-list">
-                    <!-- поменять картинку -->
-                    <img class="our-yachts-image" src="/img/our-yachts/yaht.jpg"
-                        srcset="/img/our-yachts/yaht.jpg 1x, /img/our-yachts/yaht@2x.jpg 2x" alt="Arrow yacht" />
+                    <img class="our-yachts-image" src="/img/our-yachts/yaht-two.jpg.jpg"
+                        srcset="/img/our-yachts/yaht-two.jpg 1x, /img/our-yachts/yaht-two@2x.jpg 2x"
+                        alt="BENETTI OASIS 40M BO122" />
                     <div class="yacht-order-box">
                         <div class="yacht-name-box">
-                            <p class="yacht-name-fabric">Arrow</p>
-                            <p class="yacht-name">LUXURY YAHTS</p>
+                            <div class="yacht-name-box-in">
+                                <p class="yacht-name-fabric">BENETTI OASIS 40M BO122</p>
+                                <p class="yacht-name">LUXURY YAHTS</p>
+                            </div>
                         </div>
                         <div class="yacht-tech-main-box">
                             <div class="yacht-tech-box">
@@ -71,24 +101,25 @@
                                 <p class="yacht-tech-text">PRICE</p>
                             </div>
                             <div class="yacht-tech-box">
-                                <p class="yacht-text">48m(155ft)</p>
-                                <p class="yacht-text">Admiral</p>
-                                <p class="yacht-text">2021</p>
-                                <p class="yacht-text">11 in 5 cabins</p>
-                                <p class="yacht-text">€33,500,000</p>
-
+                                <p class="yacht-text">41m (133ft)</p>
+                                <p class="yacht-text">Benetti</p>
+                                <p class="yacht-text">2025</p>
+                                <p class="yacht-text">10 in 5 cabins</p>
+                                <p class="yacht-text">€23,210,000</p>
                             </div>
                         </div>
                     </div>
                 </li>
                 <li class="yachts-order-list">
-                    <!-- поменять картинку -->
-                    <img class="our-yachts-image" src="/img/our-yachts/yaht.jpg"
-                        srcset="/img/our-yachts/yaht.jpg 1x, /img/our-yachts/yaht@2x.jpg 2x" alt="Arrow yacht" />
+                    <img class="our-yachts-image" src="/img/our-yachts/yaht-three.jpg.jpg"
+                        srcset="/img/our-yachts/yaht-three.jpg 1x, /img/our-yachts/yaht-three@2x.jpg 2x"
+                        alt="BELLE ANNA" />
                     <div class="yacht-order-box">
                         <div class="yacht-name-box">
-                            <p class="yacht-name-fabric">Arrow</p>
-                            <p class="yacht-name">LUXURY YAHTS</p>
+                            <div class="yacht-name-box-in">
+                                <p class="yacht-name-fabric">BELLE ANNA</p>
+                                <p class="yacht-name">LUXURY YAHTS</p>
+                            </div>
                         </div>
                         <div class="yacht-tech-main-box">
                             <div class="yacht-tech-box">
@@ -99,17 +130,17 @@
                                 <p class="yacht-tech-text">PRICE</p>
                             </div>
                             <div class="yacht-tech-box">
-                                <p class="yacht-text">48m(155ft)</p>
-                                <p class="yacht-text">Admiral</p>
-                                <p class="yacht-text">2021</p>
-                                <p class="yacht-text">11 in 5 cabins</p>
-                                <p class="yacht-text">€33,500,000</p>
-
+                                <p class="yacht-text">50m(155ft)</p>
+                                <p class="yacht-text">ISA</p>
+                                <p class="yacht-text">2012</p>
+                                <p class="yacht-text">12 in 6 cabins</p>
+                                <p class="yacht-text">€21,000,000</p>
                             </div>
                         </div>
                     </div>
                 </li>
             </ul>
+            <a href="#rent" class="our-yacht-link">Yacht rental</a>
         </section>
         <section class="container advantages">
             <h2 class="container-title advantages-title">Advantages</h2>
@@ -146,8 +177,12 @@
                 <img class="advantages-image" src="/img/advantages/adv-hdesk.jpg" alt="yacht" />
             </picture>
         </section>
+        <section class="container rent" id="rent">
+            <h2 class="rent-header">Rent a yacht now</h2>
+            <form action="submit" class="rent-form">
 
-
+            </form>
+        </section>
         <section class="container reviews">
             <h2 class="reviews-header">YachtJet take pride in providing the best possible service and experience to our
                 customers</h2>

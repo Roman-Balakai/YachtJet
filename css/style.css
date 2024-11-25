@@ -51,6 +51,45 @@ img {
   margin-right: auto;
   background: #0e1823;
 }
+/* About us */
+.container-about-us-main {
+  background-color: #fbfbfb;
+  padding-top: 40px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-about-us {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+}
+.about-us-main-header {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+  margin-bottom: 40px;
+}
+.about-us-header {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+  margin-bottom: 20px;
+}
+.about-us-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: -0.02em;
+  color: #040306;
+  opacity: 0.4;
+}
 
 /* Our yachts */
 .our-yachts {
@@ -72,6 +111,7 @@ img {
 .yachts-order {
   display: flex;
   flex-direction: row;
+  margin-bottom: 40px;
 }
 .yachts-order-list {
   background-color: #fbfbfb;
@@ -80,6 +120,10 @@ img {
   display: flex;
   flex-direction: column;
   gap: 32px;
+}
+.yachts-order-list:nth-child(2),
+.yachts-order-list:nth-child(3) {
+  display: none;
 }
 .our-yachts-image {
   border-radius: 24px;
@@ -90,22 +134,30 @@ img {
   padding-right: 16px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
 }
 .yacht-name-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.yacht-name-box-in {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  margin-bottom: 16px;
 }
-/* .yacht-name-box::before {
+.yacht-name-box::after {
   position: top;
   content: " ";
   width: 100%;
   height: 1px;
   background-color: rgba(4, 3, 6, 0.1);
   margin-bottom: 16px;
-} */
+}
+
 .yacht-name-fabric {
   font-weight: 500;
   font-size: 14px;
@@ -113,6 +165,11 @@ img {
   letter-spacing: -0.04em;
   text-transform: uppercase;
   color: #1b414b;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  width: 160px;
 }
 .yacht-name {
   font-weight: 400;
@@ -122,6 +179,7 @@ img {
   text-transform: uppercase;
   color: #040306;
   opacity: 0.4;
+  white-space: nowrap;
 }
 .yacht-tech-main-box {
   display: flex;
@@ -148,9 +206,22 @@ img {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: #040306;
-  width: 94px;
 }
-
+.our-yacht-link {
+  border: 1px solid rgba(251, 251, 251, 0.35);
+  border-radius: 15px;
+  padding: 14px 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+.our-yacht-link:hover,
+.our-yacht-link:active {
+  background-color: #fbfbfb;
+  color: #1b414b;
+}
 /* Advantages */
 .advantages {
   display: flex;
@@ -206,6 +277,17 @@ img {
 .advantages-image {
   border-radius: 24px;
   min-width: 280px;
+}
+/* Rent */
+.rent {
+  margin-bottom: 80px;
+}
+.rent-header {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
 }
 
 /* Review */
@@ -281,7 +363,9 @@ img {
   }
 
   /* Our Yachts */
-
+  .our-yachts {
+    margin-bottom: 150px;
+  }
   .our-yachts-header {
     font-size: 48px;
     min-width: 600px;
@@ -289,8 +373,19 @@ img {
   }
   .yachts-order {
     gap: 32px;
+    margin-bottom: 50px;
   }
-
+  .our-yachts-image {
+    width: 304px;
+    height: 268px;
+  }
+  .yachts-order-list:nth-child(2) {
+    display: flex;
+  }
+  .our-yacht-link {
+    padding: 16px 40px;
+    font-size: 18px;
+  }
   /* advantages */
   .advantages {
     gap: 32px;
@@ -313,6 +408,13 @@ img {
     line-height: 1.15;
   }
 
+  /* Rent */
+  .rent {
+    margin-bottom: 150px;
+  }
+  .rent-header {
+    font-size: 48px;
+  }
   /* Reviews */
   .reviews {
     margin-bottom: 150px;
@@ -348,6 +450,13 @@ img {
   }
   .yachts-order {
     gap: 25px;
+  }
+  .our-yachts-image {
+    width: 345px;
+    height: 268px;
+  }
+  .yachts-order-list:nth-child(3) {
+    display: flex;
   }
 
   /* advantages */
